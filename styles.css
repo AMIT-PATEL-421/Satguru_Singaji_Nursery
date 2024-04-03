@@ -1,0 +1,50 @@
+ /* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 700 */
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+body{
+  overflow-x: hidden;
+}
+h1{
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.carousel-slide-width{
+ width: 70%;
+}
+.carousel-item img{
+  width:20%;
+  height: 80vh;
+}
+/* .about img {
+  width: 100%;
+  height: auto;
+} */
+/* 
+.custom-img {
+  max-width: 50%;
+  max-height: 50%;
+} */
+.img1 {
+  max-width: 100%;
+  max-height: 100%;
+} 
+a {
+  text-decoration: none;
+}
+
+.custom-carousel-caption {
+  background-color: rgb(216, 212, 212); /* Change the background color to your desired color */
+  padding: 20px; /* Add padding for better readability */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+}
+.text-white a {  /* Target all links within elements with class "text-white" */
+  color: white;  /* Set the color of links to white */
+}
